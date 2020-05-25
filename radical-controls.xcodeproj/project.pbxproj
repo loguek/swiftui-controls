@@ -15,6 +15,7 @@
 		3BEE9923247C0FFD000805DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BEE9921247C0FFD000805DF /* LaunchScreen.storyboard */; };
 		3BEE992E247C0FFE000805DF /* radical_controlsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEE992D247C0FFE000805DF /* radical_controlsTests.swift */; };
 		3BEE9939247C0FFE000805DF /* radical_controlsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEE9938247C0FFE000805DF /* radical_controlsUITests.swift */; };
+		3BEE9947247C10A5000805DF /* RadicalGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEE9946247C10A5000805DF /* RadicalGauge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3BEE9934247C0FFE000805DF /* radical-controlsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "radical-controlsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BEE9938247C0FFE000805DF /* radical_controlsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = radical_controlsUITests.swift; sourceTree = "<group>"; };
 		3BEE993A247C0FFE000805DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BEE9946247C10A5000805DF /* RadicalGauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadicalGauge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				3BEE9921247C0FFD000805DF /* LaunchScreen.storyboard */,
 				3BEE9924247C0FFD000805DF /* Info.plist */,
 				3BEE991E247C0FFD000805DF /* Preview Content */,
+				3BEE9946247C10A5000805DF /* RadicalGauge.swift */,
 			);
 			path = "radical-controls";
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			files = (
 				3BEE9917247C0FFD000805DF /* AppDelegate.swift in Sources */,
 				3BEE9919247C0FFD000805DF /* SceneDelegate.swift in Sources */,
+				3BEE9947247C10A5000805DF /* RadicalGauge.swift in Sources */,
 				3BEE991B247C0FFD000805DF /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
