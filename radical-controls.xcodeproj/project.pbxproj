@@ -16,6 +16,8 @@
 		3BEE992E247C0FFE000805DF /* radical_controlsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEE992D247C0FFE000805DF /* radical_controlsTests.swift */; };
 		3BEE9939247C0FFE000805DF /* radical_controlsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEE9938247C0FFE000805DF /* radical_controlsUITests.swift */; };
 		3BEE9947247C10A5000805DF /* RadicalGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEE9946247C10A5000805DF /* RadicalGauge.swift */; };
+		3BEE994C247EAB38000805DF /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BEE994B247EAB38000805DF /* Colors.xcassets */; };
+		3BEE994E247EAC81000805DF /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEE994D247EAC81000805DF /* ColorManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		3BEE9938247C0FFE000805DF /* radical_controlsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = radical_controlsUITests.swift; sourceTree = "<group>"; };
 		3BEE993A247C0FFE000805DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BEE9946247C10A5000805DF /* RadicalGauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadicalGauge.swift; sourceTree = "<group>"; };
+		3BEE994B247EAB38000805DF /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		3BEE994D247EAC81000805DF /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +109,12 @@
 				3BEE9918247C0FFD000805DF /* SceneDelegate.swift */,
 				3BEE991A247C0FFD000805DF /* ContentView.swift */,
 				3BEE991C247C0FFD000805DF /* Assets.xcassets */,
+				3BEE994B247EAB38000805DF /* Colors.xcassets */,
 				3BEE9921247C0FFD000805DF /* LaunchScreen.storyboard */,
 				3BEE9924247C0FFD000805DF /* Info.plist */,
 				3BEE991E247C0FFD000805DF /* Preview Content */,
 				3BEE9946247C10A5000805DF /* RadicalGauge.swift */,
+				3BEE994D247EAC81000805DF /* ColorManager.swift */,
 			);
 			path = "radical-controls";
 			sourceTree = "<group>";
@@ -244,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BEE9923247C0FFD000805DF /* LaunchScreen.storyboard in Resources */,
+				3BEE994C247EAB38000805DF /* Colors.xcassets in Resources */,
 				3BEE9920247C0FFD000805DF /* Preview Assets.xcassets in Resources */,
 				3BEE991D247C0FFD000805DF /* Assets.xcassets in Resources */,
 			);
@@ -271,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BEE9917247C0FFD000805DF /* AppDelegate.swift in Sources */,
+				3BEE994E247EAC81000805DF /* ColorManager.swift in Sources */,
 				3BEE9919247C0FFD000805DF /* SceneDelegate.swift in Sources */,
 				3BEE9947247C10A5000805DF /* RadicalGauge.swift in Sources */,
 				3BEE991B247C0FFD000805DF /* ContentView.swift in Sources */,

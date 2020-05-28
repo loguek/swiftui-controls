@@ -14,16 +14,8 @@ struct ContentView: View {
             Rectangle()
                .fill(LinearGradient(
                    gradient: Gradient(colors: [
-                       Color.init(
-                                 red: 58 / 255,
-                                 green: 47 / 255,
-                                 blue: 118 / 255
-                             ),
-                             Color.init(
-                                 red: 27 / 255,
-                                 green: 21 / 255,
-                                 blue: 62 / 255
-                             )
+                    ColorManager.backgroundLight,
+                    ColorManager.backgroundDark
                    ]), startPoint: .top, endPoint: .bottom))
             HStack {
                 RadicalGauge(currentValue: 25, minValue: 0, maxValue: 100)
@@ -35,20 +27,11 @@ struct ContentView: View {
             .background(
                 RadialGradient(
                     gradient: Gradient(colors: [
-                        Color.init(
-                            red: 104 / 255,
-                            green: 57 / 255,
-                            blue: 121 / 255
-                        ),
-                        Color.init(
-                            red: 104 / 255,
-                            green: 57 / 255,
-                            blue: 121 / 255,
-                            opacity: 0
-                        )
+                        ColorManager.backgroundHighlight,
+                        ColorManager.backgroundHighlight.opacity(0)
                     ]),
                     center: .center,
-                    startRadius: 2,
+                    startRadius: 20,
                     endRadius: 200)
             )
         }
