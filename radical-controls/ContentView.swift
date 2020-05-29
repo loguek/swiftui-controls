@@ -21,7 +21,9 @@ struct ContentView: View {
                 RadicalGauge(currentValue: 25, minValue: 0, maxValue: 100)
                 .foregroundColor(Color.white)
                 .font(Font.system(size: 50, weight: .bold, design: .monospaced))
-                .padding()
+                    .shadow(color: Color.black.opacity(0.5), radius: 2.0)
+                    .frame(width: 250, height: 250)
+                
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(
