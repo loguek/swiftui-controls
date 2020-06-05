@@ -34,7 +34,7 @@ struct ContentView: View {
                     ]),
                     center: .center,
                     startRadius: 20,
-                    endRadius: 200)
+                    endRadius: 180)
             )
         }
     }
